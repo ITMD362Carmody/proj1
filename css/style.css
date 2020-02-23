@@ -4,3 +4,26 @@ html
   font-family: monospace;
   font-size: 12px;
 }
+label
+{
+  display: block;
+  background-color: black;
+  text-align: center;
+}
+form
+{
+  text-align: center;
+  padding-top: 15px;
+}
+@media screen and (min-width: 480px) {
+  label {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+    font-size: 1.3em;
+  }
+  div {
+    display: inline;
+  }
+}
