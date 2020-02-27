@@ -16,6 +16,19 @@ form
   text-align: center;
   padding-top: 15px;1
 }
+h1
+{
+  text-align: center;
+  color: white;
+}
+@media screen and (min-width: 480px){
+  input{
+    display: inline-block;
+    font-family: monospace;
+    background-color: gray;
+    color: black;
+  }
+}
 @media screen and (min-width: 480px) {
   label {
     display: inline-block;

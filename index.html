@@ -5,13 +5,24 @@
       <meta charset="utf-8"/>
       <link rel="stylesheet" media="screen" href="css/reset.css">
       <link rel="stylesheet" media="screen" href="css/style.css">
+      <script src="js/script.js"> </script>
   </head>
+
   <body>
-    <form action="/action_page.php">
-      <label id="signup">Please Fill Out This Form</label>
-      <p><label id="firstname">First Name: </label><input type="name" name="firstname"></input></p>
-      <p><label id="lastname">Last Name: </label><input type="name" name="lastname"></input></p>
-      <p><label id="email">Email Address: </label><input type="email" name="email"></input></p>
+
+    <h1>Welcome! Please enter your credentials.<h1>
+
+    <form method="get" name="myForm" action="#" onsubmit="return addJavaScript()">
+
+      <p><label for="firstname">First Name: </label><input type="name" name="fname" id="firstname"></input></p>
+
+      <p><label id="lastname">Last Name: </label><input type="name" name="lname" id="lastname"</input></p>
+
+      <p><label for="email">Email Address: </label><input type="email" name="email" id="email"</input></p>
+
       <input type="reset" valye="Reset">
+
       <input type="submit" value="Submit">
+
+    </form>
   </body
