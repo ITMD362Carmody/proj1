@@ -3,6 +3,7 @@ html
   line-height: 1.2em;
   font-family: monospace;
   font-size: 12px;
+  background-color: black;
 }
 label
 {
@@ -13,13 +14,13 @@ label
 form
 {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 15px;1
 }
 @media screen and (min-width: 480px) {
   label {
     display: inline-block;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     margin-right: 5px;
     font-size: 1.3em;
   }
