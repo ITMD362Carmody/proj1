@@ -42,8 +42,15 @@ input[type=reset]:hover
 input[type=submit]
 {
   font-size: 15px;
+  font-weight: bold;
   color: black;
-  background-color: lightblue;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: lightskyblue;
+}
+input[type=submit]:hover
+{
+    background-color: dodgerblue;
 }
 /* Text Box */
 @media screen and (min-width: 480px)
