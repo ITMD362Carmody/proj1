@@ -3,7 +3,7 @@ html
   line-height: 1.2em;
   font-family: monospace;
   font-size: 14px;
-  background-color: gray;
+  background-color: lightgreen;
   color: black;
 }
 label
@@ -61,7 +61,7 @@ input[type=submit]
   label {
     display: inline-block;
     color: black;
-    background-color: gray;
+    background-color: lightgreen;
     margin-right: 5px;
     font-size: 1.3em;
   }

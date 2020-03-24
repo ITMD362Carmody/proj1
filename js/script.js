@@ -18,4 +18,10 @@ function addJavaScript()
     return false;
   }
 
+  var phone = document.forms["myForm"]["email"].value;
+  if (email == ""){
+    alert("Phone Number Field Must Be Completed");
+    return false;
+  }
+
 }
