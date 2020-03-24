@@ -2,40 +2,66 @@ html
 {
   line-height: 1.2em;
   font-family: monospace;
-  font-size: 12px;
-  background-color: black;
-  color: white;
+  font-size: 14px;
+  background-color: gray;
+  color: black;
 }
 label
 {
   display: block;
-  background-color: black;
+  background-color: white;
   text-align: center;
 }
 form
 {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 18px;
 }
 p
 {
   text-align: center;
   font-size: 18px;
-  color: white;
+  font-weight: bold;
+  color: black;
 }
-@media screen and (min-width: 480px){
+/* Reset Button */
+input[type=reset]
+{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: hotpink;
+}
+input[type=reset]:hover
+{
+  background-color: red;
+}
+/* Submit Button */
+input[type=submit]
+{
+  font-size: 15px;
+  color: black;
+  background-color: lightblue;
+}
+/* Text Box */
+@media screen and (min-width: 480px)
+{
   input{
     display: inline-block;
     font-family: monospace;
-    background-color: gray;
+    background-color: white;
     color: black;
   }
 }
-@media screen and (min-width: 480px) {
+/* Text Box Label */
+@media screen and (min-width: 480px)
+{
   label {
     display: inline-block;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: gray;
     margin-right: 5px;
     font-size: 1.3em;
   }
